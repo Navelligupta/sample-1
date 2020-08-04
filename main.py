@@ -1,7 +1,7 @@
 import add
 import subtract
 import multiply
-import divide
+import division
 
 a = int(input("Enter first val"))
 b = int(input("Enter second val"))
@@ -25,5 +25,5 @@ elif op == 3:
     print("Answer is", res)
 
 elif op == 4:
-    res = divide.divide(a, b)
+    res = division.division(a, b)
     print("Answer is", res)
